@@ -1,0 +1,34 @@
+.sns-in {
+  padding-top: 103px;
+}
+
+.divi {
+    text-align: center;
+}
+
+.tit{
+    font-size: 50px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.Naver_Button{
+    background-color:transparent;
+    border: 0;
+    margin: auto;
+    display:block;
+}
+
+.Kakao_Button{
+    background-color:transparent;
+    border: 0;
+    margin: auto;
+    display:block;
+}
+
+.Gooogle_Button{
+    background-color:transparent;
+    border: 0;
+    margin: auto;
+    display:block;
+}
