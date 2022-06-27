@@ -63,11 +63,6 @@ const MenuBox = styled.div`
 
 const HeaderComponent = () => {
     const navigate = useNavigate();
-    
-    const onLogin = (e) => {
-        e.preventDefault();
-        navigate('/login');
-    }
 
     return (
         <AppHeader>
@@ -76,41 +71,14 @@ const HeaderComponent = () => {
                     <LogContainer>
                         <LogBox color="#724ef5">S</LogBox>
                         <LogBox color="#4ea4f5">S</LogBox>
-                        <LogBox color="#4ea4f5">C</LogBox>
-                        <LogBox color="#1dfaef">L</LogBox>
+                        <LogBox color="#018dff">C</LogBox>
+                        <LogBox color="#ae00ff">.</LogBox>
+                        <LogBox color="#1dfaef">Lab</LogBox>
                     </LogContainer>
                 </Link>
 
-                <SearchForm>
-                    <input type="search" />
-
-                    <ImageBox>
-                        <Img src="search.png" alt="Search" />
-                        <span>검색</span>
-                    </ImageBox>
-                </SearchForm>
-
                 <MenuBox>
-                    <ImageBox>
-                        <Img src="like.png" alt="like" />
-                        <span>관심등록</span>
-                    </ImageBox>
-
-                    {/* 로그인 */}
-                    <ImageBox onClick={onLogin}>
-                        <Img src="login.png" alt="login" />
-                        <span>로그인</span>
-                    </ImageBox>  
-
-                    <ImageBox>
-                        <Img src="cart.png" alt="cart" />
-                        <span>장바구니</span>
-                    </ImageBox>
-
-                    <ImageBox>
-                        <Img src="customer.png" alt="customer" />
-                        <span>고객센터</span>
-                    </ImageBox>
+                
                 </MenuBox>
             </NavContainer>
         </AppHeader>
